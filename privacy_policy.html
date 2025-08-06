@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill To - 개인정보 처리방침</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 5px;
+        }
+        .contact {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .last-updated {
+            text-align: right;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 30px;
+        }
+        .language-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-selector a {
+            margin: 0 5px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .language-selector a.active {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <a href="#" onclick="showLanguage('ko')" id="ko-btn" class="active">한국어</a>
+            <a href="#" onclick="showLanguage('en')" id="en-btn">English</a>
+            <a href="#" onclick="showLanguage('ja')" id="ja-btn">日本語</a>
+        </div>
+
+        <!-- 한국어 버전 -->
+        <div id="ko-content" class="content">
+            <h1>Fill To - 개인정보 처리방침</h1>
+            
+            <div class="section">
+                <h2>1. 개인정보 수집 및 이용 목적</h2>
+                <p>Fill To 앱은 사용자의 개인정보를 수집하지 않습니다. 모든 기분 기록 데이터는 사용자의 기기 내부에만 저장되며, 외부 서버로 전송되지 않습니다.</p>
+            </div>
+
+            <div class="section">
+                <h2>2. 수집하는 개인정보 항목</h2>
+                <p><strong>수집하는 개인정보: 없음</strong></p>
+                <ul>
+                    <li>Fill To는 어떠한 개인정보도 수집하지 않습니다</li>
+                    <li>기분 기록, 메모 등 모든 데이터는 기기 내부에만 저장됩니다</li>
+                    <li>네트워크 연결이나 인터넷 접근이 필요하지 않습니다</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. 개인정보 보관 및 삭제</h2>
+                <p>모든 데이터는 사용자의 기기에만 저장되므로:</p>
+                <ul>
+                    <li>사용자가 앱을 삭제하면 모든 데이터가 함께 삭제됩니다</li>
+                    <li>데이터 백업 및 복원 기능을 통해 사용자가 직접 데이터를 관리할 수 있습니다</li>
+                    <li>개발자는 사용자의 데이터에 접근할 수 없습니다</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. 개인정보 보호 조치</h2>
+                <ul>
+                    <li>모든 데이터는 기기 내부 SQLite 데이터베이스에 저장됩니다</li>
+                    <li>외부 서버나 클라우드 서비스를 사용하지 않습니다</li>
+                    <li>네트워크 권한을 요구하지 않습니다</li>
+                    <li>광고나 분석 도구를 사용하지 않습니다</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. 권한 사용</h2>
+                <p>Fill To는 다음 권한만을 사용합니다:</p>
+                <ul>
+                    <li><strong>알림 권한</strong>: 기분 기록 리마인더 알림을 위해 사용됩니다 (선택사항)</li>
+                    <li><strong>저장소 접근</strong>: 데이터 백업/복원 파일 저장을 위해 사용됩니다 (선택사항)</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>6. 연락처</h2>
+                <p>개인정보 처리방침에 대한 문의사항이 있으시면 아래로 연락해주세요:</p>
+                <p><strong>개발자:</strong> Fill To<br>
+                <strong>이메일:</strong> fillto.app@gmail.com</p>
+            </div>
+
+            <div class="last-updated">
+                <p>최종 수정일: 2024년 1월 1일</p>
+            </div>
+        </div>
+
+        <!-- English Version -->
+        <div id="en-content" class="content" style="display: none;">
+            <h1>Fill To - Privacy Policy</h1>
+            
+            <div class="section">
+                <h2>1. Purpose of Personal Information Collection and Use</h2>
+                <p>The Fill To app does not collect any personal information. All mood tracking data is stored only on the user's device and is never transmitted to external servers.</p>
+            </div>
+
+            <div class="section">
+                <h2>2. Personal Information Items Collected</h2>
+                <p><strong>Personal Information Collected: None</strong></p>
+                <ul>
+                    <li>Fill To does not collect any personal information</li>
+                    <li>All data including mood records and memos are stored only on the device</li>
+                    <li>No network connection or internet access is required</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. Personal Information Storage and Deletion</h2>
+                <p>Since all data is stored only on the user's device:</p>
+                <ul>
+                    <li>All data is deleted when the user uninstalls the app</li>
+                    <li>Users can manage their data directly through backup and restore features</li>
+                    <li>Developers cannot access user data</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. Personal Information Protection Measures</h2>
+                <ul>
+                    <li>All data is stored in a local SQLite database on the device</li>
+                    <li>No external servers or cloud services are used</li>
+                    <li>No network permissions are required</li>
+                    <li>No advertising or analytics tools are used</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. Permissions Used</h2>
+                <p>Fill To uses only the following permissions:</p>
+                <ul>
+                    <li><strong>Notification Permission</strong>: Used for mood tracking reminder notifications (optional)</li>
+                    <li><strong>Storage Access</strong>: Used for saving data backup/restore files (optional)</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>6. Contact Information</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                <p><strong>Developer:</strong> Fill To<br>
+                <strong>Email:</strong> fillto.app@gmail.com</p>
+            </div>
+
+            <div class="last-updated">
+                <p>Last Updated: January 1, 2024</p>
+            </div>
+        </div>
+
+        <!-- Japanese Version -->
+        <div id="ja-content" class="content" style="display: none;">
+            <h1>Fill To - プライバシーポリシー</h1>
+            
+            <div class="section">
+                <h2>1. 個人情報の収集・利用目的</h2>
+                <p>Fill Toアプリは個人情報を収集しません。すべての気分記録データはユーザーのデバイス内部にのみ保存され、外部サーバーに送信されることはありません。</p>
+            </div>
+
+            <div class="section">
+                <h2>2. 収集する個人情報項目</h2>
+                <p><strong>収集する個人情報：なし</strong></p>
+                <ul>
+                    <li>Fill Toはいかなる個人情報も収集しません</li>
+                    <li>気分記録、メモなどすべてのデータはデバイス内部にのみ保存されます</li>
+                    <li>ネットワーク接続やインターネットアクセスは必要ありません</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. 個人情報の保管・削除</h2>
+                <p>すべてのデータはユーザーのデバイスにのみ保存されるため：</p>
+                <ul>
+                    <li>ユーザーがアプリを削除すると、すべてのデータも一緒に削除されます</li>
+                    <li>データバックアップ・復元機能を通じてユーザーが直接データを管理できます</li>
+                    <li>開発者はユーザーのデータにアクセスできません</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. 個人情報保護措置</h2>
+                <ul>
+                    <li>すべてのデータはデバイス内部のSQLiteデータベースに保存されます</li>
+                    <li>外部サーバーやクラウドサービスは使用しません</li>
+                    <li>ネットワーク権限を要求しません</li>
+                    <li>広告や分析ツールは使用しません</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. 権限の使用</h2>
+                <p>Fill Toは以下の権限のみを使用します：</p>
+                <ul>
+                    <li><strong>通知権限</strong>：気分記録リマインダー通知のために使用されます（任意）</li>
+                    <li><strong>ストレージアクセス</strong>：データバックアップ・復元ファイルの保存のために使用されます（任意）</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>6. 連絡先</h2>
+                <p>このプライバシーポリシーについてご質問がございましたら、下記までご連絡ください：</p>
+                <p><strong>開発者：</strong> Fill To<br>
+                <strong>メール：</strong> fillto.app@gmail.com</p>
+            </div>
+
+            <div class="last-updated">
+                <p>最終更新日：2024年1月1日</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all content
+            document.querySelectorAll('.content').forEach(el => {
+                el.style.display = 'none';
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-selector a').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Show selected content and activate button
+            document.getElementById(lang + '-content').style.display = 'block';
+            document.getElementById(lang + '-btn').classList.add('active');
+        }
+    </script>
+</body>
+</html>
